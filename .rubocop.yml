@@ -1,0 +1,18 @@
+require:
+  - rubocop-sorbet
+
+Layout/LineLength:
+  Max: 300
+
+Sorbet/HasSigil:
+  Enabled: true
+  Include:
+    - '**/*.rb'
+
+Sorbet/ValidSigil:
+  Enabled: true
+  Include:
+    - '**/*.rb'
+
+Sorbet/EnforceSignatures:
+  Enabled: true
